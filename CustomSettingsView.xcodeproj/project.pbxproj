@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		E2DD5C6926A02766005A3102 /* CustomSettingsViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DD5C6826A02766005A3102 /* CustomSettingsViewApp.swift */; };
-		E2DD5C6B26A02766005A3102 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DD5C6A26A02766005A3102 /* ContentView.swift */; };
 		E2DD5C6D26A02768005A3102 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2DD5C6C26A02768005A3102 /* Assets.xcassets */; };
 		E2DD5C7026A02768005A3102 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2DD5C6F26A02768005A3102 /* Preview Assets.xcassets */; };
+		E2DD5C7826A02B4B005A3102 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DD5C7726A02B4B005A3102 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E2DD5C6526A02766005A3102 /* CustomSettingsView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomSettingsView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2DD5C6826A02766005A3102 /* CustomSettingsViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSettingsViewApp.swift; sourceTree = "<group>"; };
-		E2DD5C6A26A02766005A3102 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E2DD5C6C26A02768005A3102 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2DD5C6F26A02768005A3102 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E2DD5C7126A02768005A3102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2DD5C7726A02B4B005A3102 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				E2DD5C6826A02766005A3102 /* CustomSettingsViewApp.swift */,
-				E2DD5C6A26A02766005A3102 /* ContentView.swift */,
+				E2DD5C7726A02B4B005A3102 /* SettingsView.swift */,
 				E2DD5C6C26A02768005A3102 /* Assets.xcassets */,
 				E2DD5C7126A02768005A3102 /* Info.plist */,
 				E2DD5C6E26A02768005A3102 /* Preview Content */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2DD5C6B26A02766005A3102 /* ContentView.swift in Sources */,
+				E2DD5C7826A02B4B005A3102 /* SettingsView.swift in Sources */,
 				E2DD5C6926A02766005A3102 /* CustomSettingsViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
